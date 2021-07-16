@@ -1,0 +1,49 @@
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.containerButton{
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+.linkLista{
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  padding: 5px 20px;
+
+}
+.linkLista:hover{
+  background-color: greenyellow;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  max-width: 200px;
+  margin: 20px auto;
+  align-items: center;
+}
+
+.btnVoltar {
+  background-color: white;
+  border: 1px solid #4CAF50;
+  color: #4CAF50;
+}
